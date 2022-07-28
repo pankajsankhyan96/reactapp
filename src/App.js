@@ -12,6 +12,10 @@ function App() {
         <p>
           Changes to create first pull request.
         </p>
+
+        <p>
+          Changes to create second pull request.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
