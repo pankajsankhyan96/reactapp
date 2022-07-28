@@ -9,6 +9,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload to check changes.
         </p>
+        <p>
+          Changes to create first pull request.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
