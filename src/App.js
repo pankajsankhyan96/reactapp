@@ -14,7 +14,14 @@ function App() {
         </p>
 
         <p>
-          Changes to create second pull request.
+          Changes to create second pull request fdg.
+        </p>
+        <p>
+          {`${process.env.NODE_ENV}`}
+          <span>    App mode : {`${process.env.APP_MODE}`} </span>
+        </p>
+        <p>
+          {`${JSON.stringify(process.env)}`}
         </p>
         <a
           className="App-link"
