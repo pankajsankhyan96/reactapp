@@ -1,0 +1,23 @@
+{
+    "env": {
+        "NODE_ENVR": "production-environment",
+        "SECRET_TOKEN": {
+          "description": "A secret key for verifying the integrity of signed cookies.",
+          "generator": "secret"
+        },
+        "WEB_CONCURRENCY": {
+          "description": "The number of processes to run.",
+          "value": "5"
+        }
+    },
+    "environments": {
+      "review": {
+        "env": {
+          "NODE_ENV": "development"
+        },
+        "scripts": {
+          "postdeploy": "set NODE_ENV=development&& node src/index.js"
+        }
+      }
+    }
+}

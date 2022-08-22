@@ -18,7 +18,7 @@ function App() {
         </p>
         <p>
           {`${process.env.NODE_ENV}`}
-          <span>    App mode : {`${process.env.REACT_APP_APP_MODE}`} </span>
+          <p>    App mode : {`${process.env.REACT_APP_ENV}`} </p>
         </p>
         <p>
           {`${JSON.stringify(process.env)}`}
