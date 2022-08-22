@@ -13,10 +13,7 @@
     "environments": {
       "review": {
         "env": {
-          "NODE_ENV": "development"
-        },
-        "scripts": {
-          "postdeploy": "set NODE_ENV=development&& node src/index.js"
+          "NODE_ENV": "review"
         }
       }
     }
